@@ -31,21 +31,21 @@ export default function Post() {
 
                     <label htmlFor="name-id" style={{marginTop:'20px',marginLeft:'10px'}}>Name :</label>
 
-                    <input type="text" name='name' id='name-id' placeholder='Type Your Name' required/>
+                    <input type="text" name='name' id='name-id' placeholder='Please Enter Your Name' required/>
 
                 </div>
                 <div className='location-class'>
 
                     <label htmlFor="location-id" style={{marginTop:'20px',marginLeft:'10px'}}>Location :</label>
 
-                    <input type="text" name='location' id='location-id' placeholder='Type Your location' required/>
+                    <input type="text" name='location' id='location-id' placeholder='Please Enter Your location' required/>
 
                 </div>
                 <div className='img-class'>
 
                     <label htmlFor="description-id" style={{marginTop:'20px',marginLeft:'10px'}}>Description :</label>
 
-                    <input type="text" name='description' id='description-id' placeholder='Type description' required/>
+                    <input type="text" name='description' id='description-id' placeholder='Please Enter description' required/>
 
                 </div>
                 <div className='posting-class'>
@@ -56,7 +56,7 @@ export default function Post() {
 
                 </div>
 
-                <button type='submit' id='btn-sub'>submit</button>
+                <button type='submit' id='btn-sub'>Upload</button>
             </form>
         </div>
   )
